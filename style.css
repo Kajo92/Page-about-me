@@ -1,0 +1,115 @@
+body {
+    margin: 0 auto; /* ustawia element w centrum strony (opcjonalne) */
+    background-color: #F8F8F8; /* kolor tła */
+  }
+
+  /* --------------------------CSS HEADER--------------------------------------------*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    background-color: #F8F8F8;
+    width: 100%; /*- SZTYWNY HEADER*/
+    position: fixed; /* SZTYWNY HEADER*/
+  }
+
+  a {
+    text-decoration: none; /* Usunięcie podkreślenia */
+    color: inherit; /* Dziedziczenie koloru od rodzica (może być dostosowane) */
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px
+ }
+
+
+  .icon {
+    height: 25px;
+  }  
+
+/* --------------------------CSS MAIN--------------------------------------------*/
+
+  .container {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 800px;
+  }
+
+  h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #848489;
+  }
+
+  h2 {
+    font-size: 30px;
+    color: #848489;
+  }
+
+  .photo {
+    margin-top: 50px;
+  }
+
+  .honey1 {
+    margin-top: 30px;
+    margin-left: -150px;
+  }
+
+  .honey2 {
+    margin-top: -104px;
+    padding-bottom: 24px;
+  }
+
+  .text2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #B6B6B6;
+    color: #F8F8F8;
+    margin-top: -28px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .text3 {
+    color: #848489;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .background-text {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url('background-photo.jpg');
+    background-size: cover; /* Dopasuj obraz do rozmiaru kontenera */
+  }
+
+  .honey3 {
+    margin-top: -250px;
+  }
+
+  /* --------------------------CSS FOOTER--------------------------------------------*/
+
+  .footer {
+    display: flex;
+  }
