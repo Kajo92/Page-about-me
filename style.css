@@ -1,6 +1,7 @@
 body {
     margin: 0 auto; /* ustawia element w centrum strony (opcjonalne) */
     background-color: #F8F8F8; /* kolor tła */
+    width: 100%;
   }
 
   /* --------------------------CSS HEADER--------------------------------------------*/
@@ -22,19 +23,23 @@ header {
 
 
   .menu {
-    display: flex;
-    justify-content: space-around;
+    display: flex;    justify-content: center;
     align-items: center;
-    width: 500px
+    width: 100%;
  }
 
 
   .icon {
+    display: flex;
     height: 25px;
   }  
 
 /* --------------------------CSS MAIN--------------------------------------------*/
 
+  main{
+    width: fit-content;
+  }
+  
   .container {
     font-family: 'Josefin Sans', sans-serif;
     display: flex;
@@ -47,17 +52,17 @@ header {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    width: 800px;
+    width: 100%;
   }
 
   h1 {
-    font-size: 80px;
+    font-size: 500%;
     font-weight: bold;
-    color: #848489;
+    color: #eb0a0a;
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 200%;
     color: #848489;
   }
 
@@ -84,14 +89,18 @@ header {
     background-color: #B6B6B6;
     color: #F8F8F8;
     margin-top: -28px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 20%;
+    padding-right: 20%;
   }
 
   .text3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     color: #848489;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 20%;
+    padding-right: 20%;
   }
 
   .background-text {
@@ -110,6 +119,8 @@ header {
 
   /* --------------------------CSS FOOTER--------------------------------------------*/
 
-  .footer {
+  footer {
+    padding-left: 2%;
     display: flex;
+
   }
