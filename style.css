@@ -23,8 +23,7 @@ header {
 
 
   .menu {
-    display: flex;
-    justify-content: center;
+    display: flex;    justify-content: center;
     align-items: center;
     width: 100%;
  }
@@ -37,9 +36,14 @@ header {
 
 /* --------------------------CSS MAIN--------------------------------------------*/
 
+  main{
+    width: fit-content;
+  }
+  
   .container {
     font-family: 'Josefin Sans', sans-serif;
     display: flex;
+    justify-content: space-between;
   }
 
   .text{
@@ -85,8 +89,8 @@ header {
     background-color: #B6B6B6;
     color: #F8F8F8;
     margin-top: -28px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 20%;
+    padding-right: 20%;
   }
 
   .text3 {
@@ -115,7 +119,8 @@ header {
 
   /* --------------------------CSS FOOTER--------------------------------------------*/
 
-  .footer {
-    padding-left: 20px;
+  footer {
+    padding-left: 2%;
     display: flex;
+    min-width: max-content;
   }
