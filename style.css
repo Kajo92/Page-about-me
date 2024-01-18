@@ -21,13 +21,12 @@ header {
     font-family: 'Josefin Sans', sans-serif;
   }
 
-
   .menu {
-    display: flex;    justify-content: center;
+    display: flex;    
+    justify-content: center;
     align-items: center;
     width: 100%;
  }
-
 
   .icon {
     display: flex;
@@ -58,7 +57,7 @@ header {
   h1 {
     font-size: 500%;
     font-weight: bold;
-    color: #eb0a0a;
+    color: #848489;
   }
 
   h2 {
@@ -122,5 +121,6 @@ header {
   footer {
     padding-left: 2%;
     display: flex;
-
+    flex-wrap: nowrap;
+    width: 100%;
   }
