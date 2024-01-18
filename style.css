@@ -2,6 +2,7 @@ body {
     margin: 0 auto; /* ustawia element w centrum strony (opcjonalne) */
     background-color: #F8F8F8; /* kolor tła */
     width: 100%;
+    touch-action: manipulation;
   }
 
   /* --------------------------CSS HEADER--------------------------------------------*/
@@ -58,7 +59,7 @@ header {
   h1 {
     font-size: 500%;
     font-weight: bold;
-    color: #eb0a0a;
+    color: #24eb0a;
   }
 
   h2 {
@@ -122,5 +123,6 @@ header {
   footer {
     padding-left: 2%;
     display: flex;
-
+    flex-wrap: nowrap;
+    width: 100%;
   }
