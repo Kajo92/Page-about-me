@@ -2,7 +2,6 @@ body {
     margin: 0 auto; /* ustawia element w centrum strony (opcjonalne) */
     background-color: #F8F8F8; /* kolor tła */
     width: 100%;
-    touch-action: manipulation;
   }
 
   /* --------------------------CSS HEADER--------------------------------------------*/
@@ -22,13 +21,12 @@ header {
     font-family: 'Josefin Sans', sans-serif;
   }
 
-
   .menu {
-    display: flex;    justify-content: center;
+    display: flex;    
+    justify-content: center;
     align-items: center;
     width: 100%;
  }
-
 
   .icon {
     display: flex;
@@ -59,7 +57,7 @@ header {
   h1 {
     font-size: 500%;
     font-weight: bold;
-    color: #24eb0a;
+    color: #848489;
   }
 
   h2 {
