@@ -11,7 +11,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    height: 25px;
+    height: 35px;
     background-color: #F8F8F8;
     width: 100%; /*- SZTYWNY HEADER*/
     position: fixed; /* SZTYWNY HEADER*/
@@ -21,19 +21,81 @@ header {
     text-decoration: none; /* Usunięcie podkreślenia */
     color: inherit; /* Dziedziczenie koloru od rodzica (może być dostosowane) */
     font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
   }
-
+ 
+ 
   .menu {
     display: flex;    
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 30%;
  }
 
-  .icon {
-    display: flex;
-    height: 25px;
-  }  
+ .menu a:hover {
+ text-decoration:underline;
+
+ }
+
+ 
+
+ .icon {
+  display: flex;
+  height: 35px;
+}  
+
+/*-------------------------------PROJECT ACCORDIONS---------------*/
+
+
+ .dropdown {
+  float: left;
+  overflow: hidden;
+  
+}
+
+.dropdown .dropbtn {
+  font-size: large;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  text-decoration: none; /* Usunięcie podkreślenia */
+  color: inherit; /* Dziedziczenie koloru od rodzica (może być dostosowane) */
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar a, .dropdown-content a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* --------------------------CSS MAIN--------------------------------------------*/
 
@@ -72,7 +134,7 @@ header {
   }
 
   .honey1 {
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: -150px;
   }
 
