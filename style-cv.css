@@ -1,4 +1,3 @@
-
 body {
     box-sizing: border-box; /* Uwzględnij padding i border w obliczeniach rozmiaru */
     max-width: 100%; /* Niech div nie przekracza 100% szerokości rodzica */  
