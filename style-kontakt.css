@@ -1,8 +1,3 @@
-/* FONTS */
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,300&display=swap');
-
-
 
 /* Global Settings */
 
@@ -14,70 +9,33 @@
 
 html {
     font-size: 10px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
   
 }
+
+
 
 
 /* Color Variables */
 
 :root {
 
-    --lightPurple: red;
-    --darkPurple: yellow;
-    --formTextAndBorders: green;
-    --mainWhite: blue;
+    --lightPurple: #848489;
+    --darkPurple: #848489;
+    --formTextAndBorders: rgb(44, 44, 44);
+    --mainWhite: #848489;
 } 
 
 
 .container {
     width: 100vw;
     min-height: 100vh;
-    background-color: var(--lightPurple);
+    background-image: url(background-photo.jpg);
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-}
-
-
-
-
-
-/* Background Circles Styling */
-
-
-.leftPurpleCircle, .bigGreyCircle, .smallRedCircle {
-    position: absolute;
-    border-radius: 50%;
-}
-
-
-.leftPurpleCircle {
-    height: 70%;
-    width: 30%;
-    background: var(--darkPurple);
-    bottom: -10%;
-    left: -15%;
-}
-
-
-.bigGreyCircle {
-    height: 110%;
-    width: 60%;
-    background-color: var(--bigCircleGrey);
-    right: -20%;
-    bottom: -10%;
-}
-
-
-.smallRedCircle {
-    height: 90%;
-    width: 50%;
-    background-color: var(--smallCircleRed);
-    right: -20%;
-    bottom: -10%;
 }
 
 
@@ -147,7 +105,7 @@ html {
 .rightSection {
     display: flex;
     flex-direction: column;
-background-color: var(--mainWhite);
+background-color: #d9d1d1;
 padding: 4em 6em;
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -195,8 +153,8 @@ textarea:focus {
 
 button {
     font-size: 2rem;
-    color: var(--mainWhite);
-    background: var(--darkPurple);
+    color: rgb(255, 255, 255);
+    background: #989595;
     border: none;
     width: 9em;
     margin: 0 auto;
@@ -211,7 +169,6 @@ button:hover, button:focus {
     background-color: var(--lightPurple);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
 
 
 /* MEDIA QUERIES --------------------- */
