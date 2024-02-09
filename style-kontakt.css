@@ -16,6 +16,8 @@ html {
 
 
 
+
+
 /* Color Variables */
 
 :root {
@@ -170,6 +172,25 @@ button:hover, button:focus {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+
+.button-back {
+
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    background: #989595;
+    border: none;
+    width: 9em;
+    margin: 50px;
+    border-radius: 20px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    outline: none;
+}
+
+.button-back:hover, .button-back:focus {
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
 /* MEDIA QUERIES --------------------- */
 
